@@ -13,7 +13,7 @@ def primes(number_of_primes):
                 break
 
         if prime:
-            listPrimes.append(currentNumber)
+            list.append(currentNumber)
             currentNumber = currentNumber + 1
         else:
             currentNumber = currentNumber + 1
